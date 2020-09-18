@@ -14,7 +14,7 @@ Examples:
 Scenario Outline: Login incorrecto
 Given un cliente ingresa un nombre de usuario en el campo <usuario> and que ha introducido un password en el campo <password>
 When se hace click en el <boton>
-Then debería de mostrarse el mensaje <mensaje>
+Then debería de mostrarse el mensaje <mensaje> XXXXXXXXXXX
 
 Examples:
 | usuario | password | boton    | mensaje         |
